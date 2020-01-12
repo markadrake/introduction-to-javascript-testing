@@ -1,0 +1,19 @@
+{
+	"name": "introduction-to-javascript-testing",
+	"version": "0.1.0",
+	"description": "Introduction to JavaScript testing is meant to provide developers the shortest path for writing unit tests (in JavaScript).",
+	"main": "index.js",
+	"dependencies": {
+		"chai": "^4.2.0",
+		"mocha": "^7.0.0",
+		"nyc": "^15.0.0"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"mocha": "mocha",
+		"nyc": "nyc --reporter=html --reporter=json --reporter=text mocha",
+		"test": "nyc mocha"
+	},
+	"author": "Mark Drake",
+	"license": "ISC"
+}
