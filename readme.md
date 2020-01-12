@@ -34,7 +34,7 @@ npm i
 - **Chai**
   - A library that provides assertions, supporting both behavior-driven and test-driven development (BDD, TDD).
 - **NYC** and **Istanbul**
-  - A library that helps us track how well unit-tests exercise the codebase (code coverage).
+  - A library that helps us track how well our tests exercise the codebase (code coverage).
 
 ## Writing Tests
 
@@ -43,6 +43,10 @@ npm i
 ## Running Tests
 
 > *To be written.*
+
+```
+npm run test
+```
 
 ## Reporting
 
