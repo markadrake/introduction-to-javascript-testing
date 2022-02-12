@@ -10,7 +10,9 @@ const assert = require("assert");
 const expect = require("chai").expect;
 
 // Require one or multiple files from our repo that we wish to test:
-require("../src/object.js");
+require("../src/object.expand.js");
+require("../src/object.flatten.js");
+require("../src/object.validate.js");
 
 // Now our tests:
 describe("Object Extensions", function () {
